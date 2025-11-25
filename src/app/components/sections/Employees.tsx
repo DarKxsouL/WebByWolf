@@ -112,7 +112,7 @@ function Employees () {
                 <img className='object-contain w-10' src={emp.icon} />
                 <p>{emp.description}</p>
                 <div className='flex gap-x-5 items-center'>
-                  <img src={emp.profile} />
+                  <img className='object-contain' src={emp.profile} />
                   <span>{emp.name}</span>
                 </div>
               </Card>

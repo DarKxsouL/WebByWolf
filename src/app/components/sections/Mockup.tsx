@@ -14,7 +14,7 @@ function Mockup() {
             </div>
         </div>
         <div className="animate-slide-right w-1/2">
-            <img src="./screen.png" className="w-300"/>
+            <img src="./screen.png" className=" object-contain"/>
         </div>
       </div>
     </>
