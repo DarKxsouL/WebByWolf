@@ -23,6 +23,7 @@ function Employees () {
       description:
         'Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.',
       profile: '/profile1.png',
+      alt: 'Profile picture of Jane Cooper',
       name: 'Jane Cooper'
     },
     {
@@ -31,6 +32,7 @@ function Employees () {
       description:
         'Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.',
       profile: '/profile2.png',
+      alt: 'Profile picture of Ralph Edwards',
       name: 'Ralph Edwards'
     },
     {
@@ -39,6 +41,7 @@ function Employees () {
       description:
         'Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.',
       profile: '/profile3.png',
+      alt: 'Profile picture of Courtney Henry',
       name: 'Courtney Henry'
     },
     {
@@ -47,6 +50,7 @@ function Employees () {
       description:
         'Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.',
       profile: '/profile4.png',
+      alt: 'Profile picture of Cameron Williamson',
       name: 'Cameron Williamson'
     },
     {
@@ -55,6 +59,7 @@ function Employees () {
       description:
         'Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.',
       profile: '/profile4.png',
+      alt: 'Profile picture of Cameron Williamson',
       name: 'Cameron Williamson'
     }
   ]
@@ -112,7 +117,7 @@ function Employees () {
                 <img className='object-contain w-10' src={emp.icon} />
                 <p>{emp.description}</p>
                 <div className='flex gap-x-5 items-center'>
-                  <img className='object-contain' src={emp.profile} />
+                  <img className='object-contain' src={emp.profile} alt={emp.alt} />
                   <span>{emp.name}</span>
                 </div>
               </Card>
