@@ -22,7 +22,7 @@ function Employees () {
       icon: '/Icon1.png',
       description:
         'Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.',
-      profile: '/profile1.png',
+      profile: '/Profile1.png',
       alt: 'Profile picture of Jane Cooper',
       name: 'Jane Cooper'
     },
@@ -31,7 +31,7 @@ function Employees () {
       icon: '/Icon2.png',
       description:
         'Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.',
-      profile: '/profile2.png',
+      profile: '/Profile2.png',
       alt: 'Profile picture of Ralph Edwards',
       name: 'Ralph Edwards'
     },
@@ -40,7 +40,7 @@ function Employees () {
       icon: '/Icon3.png',
       description:
         'Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.',
-      profile: '/profile3.png',
+      profile: '/Profile3.png',
       alt: 'Profile picture of Courtney Henry',
       name: 'Courtney Henry'
     },
@@ -49,7 +49,7 @@ function Employees () {
       icon: '/Icon4.png',
       description:
         'Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.',
-      profile: '/profile4.png',
+      profile: '/Profile4.png',
       alt: 'Profile picture of Cameron Williamson',
       name: 'Cameron Williamson'
     },
@@ -58,7 +58,7 @@ function Employees () {
       icon: '/Icon4.png',
       description:
         'Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.',
-      profile: '/profile4.png',
+      profile: '/Profile4.png',
       alt: 'Profile picture of Cameron Williamson',
       name: 'Cameron Williamson'
     }
